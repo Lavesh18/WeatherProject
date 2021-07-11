@@ -38,7 +38,7 @@ const getInfo = async(event)=>{
             temp_status.innerHTML = "<i class = 'fas fa-cloud' style = 'color: #ef1f2f6;'></i>";
         }
         else if(tempMode == "Rain"){
-            temp_status.innerHTML = "<i class = 'fas fa-rain' style = 'color: #a4b0be;'></i>";
+            temp_status.innerHTML = "<i class = 'fas fa-cloud-rain' style = 'color: #a4b0be;'></i>";
         }
         else{
             temp_status.innerHTML = "<i class = 'fas fa-cloud' style = 'color: #ef1f2f6;'></i>";
